@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Fashion Website</title>
+    <style>
+    
+        body{
+                            
+            background-image: url("hype.jpg");
+            width: 100%;
+            margin: 0 auto;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        
+        }
+                    
+        background-image{ 
+
+            width: 178px;
+            height: 305px;
+            left: 12px;
+            top: 57px;
+            filter: blur(40px);
+        }
+
+        ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+            }
+
+
+           li {
+             float: left;
+            }
+
+            li a {
+             display: block;
+             color: white;
+             text-align: center;
+             padding: 14px 16px;
+             text-decoration: none;
+            }
+
+           li a:hover {
+             background-color: #111;
+            }
+
+
+           li1 {
+              float: right;
+            }
+          
+           li1 a {
+             display: block;
+             color: white;
+             text-align: center;
+             padding: 14px 16px;
+             text-decoration: none;
+            }
+
+            li1 a:hover {
+             background-color: #111;
+            }
+
+            h {
+              position: absolute;
+              width: 300px;
+              height: 0px;
+              left: 850px;
+              top: -27px;
+
+              font-family: Saira ExtraCondensed;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 30px;
+              line-height: 100px;
+            }
+
+            h1{
+              text-align: center;
+              margin-top: 10;
+             
+
+
+              font-family: Roboto Condensed;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 90px;
+              line-height: 120px;
+
+            }
+
+            p{
+                font-size: 28px;
+
+            }
+
+
+            
+
+
+    </style>
+
+
+    <body>
+        
+        <ul>
+            <li><a class="active" href="page2.html">MENU</a></li>
+            <li1><a class="active" href="itembar.html">SEARCH</a></li1>
+            <h style="color:blue ;">HIGH FASHION</h>
+    
+    
+        </ul>
+
+        <center>
+
+            <h1 style="color:#333333 ;">About Us</h1>
+
+            <p style="color:#333333 ;">Designer Yik,</p>
+            <p style="color:#333333 ;">Store Locate Deakin University</p>
+            <p style="color:#333333 ;">Opening Hour 08:00-17:00</p>
+            <p style="color:#333333 ;">Contact 0478586046</p>
+            <p style="color:#333333 ;"> Email yhtan@deakin.edu.au</p>
+
+
+
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.4351654083002!2d145.11343891529606!3d-37.850107079745804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6405e00a44f67%3A0x384d9eb5ae87826e!2sDeakin%20University!5e0!3m2!1sen!2sau!4v1599226897391!5m2!1sen!2sau" width="425" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        
+        </center>
+
+
+    </body>
+
+
+
+
+
+
+
+</html>
