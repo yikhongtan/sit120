@@ -1,0 +1,158 @@
+<!Doctype>
+<html>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Fashion Website</title>
+    <style>
+        body{
+            
+            background-image: url("hype.jpg");
+            width: 100%;
+            margin: 0 auto;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+        
+        background-image{ 
+
+            width: 178px;
+            height: 305px;
+            left: 12px;
+            top: 57px;
+            filter: blur(40px);
+        }
+        
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+
+
+       li {
+         float: left;
+        }
+
+        li a {
+         display: block;
+         color: white;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+        }
+
+       li a:hover {
+         background-color: #111;
+        }
+
+
+       li1 {
+          float: right;
+        }
+      
+       li1 a {
+         display: block;
+         color: white;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+        }
+
+        li1 a:hover {
+         background-color: #111;
+        }
+
+       h {
+          position: absolute;
+          width: 300px;
+          height: 0px;
+          left: 850px;
+          top: -27px;
+
+          font-family: Saira ExtraCondensed;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 30px;
+          line-height: 100px;
+        }
+
+
+        
+        h1{
+          text-align: center;
+          margin-top: 30;
+         
+
+
+          font-family: Roboto Condensed;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 100px;
+          line-height: 230px;
+
+        }
+
+    </style>
+
+
+
+
+
+    <body>
+
+        <ul>
+            <li><a class="active" href="page2.html">MENU</a></li>
+            <li1><a class="active" href="itembar.html">SEARCH</a></li1>
+            <h style="color: blue;">HIGH FASHION</h>
+    
+    
+            </ul>
+    
+            <h1 style="color:#333333 ;">Sign Up</h1>
+
+
+
+        <center>
+
+            <form name="signup_form" onsubmit ="" method ="POST">
+
+                First_Name:<input type="text" name ="First Name"><br>
+                Last_Name:<input type="text" name ="Last Name"><br>
+                Address  :<input type="text" name ="Address"><br>
+                Phone   :<input type="int" name ="Phone Number"><br>
+                Email   :<input type="text" name = "Email"><br>
+                Password:<input type="password" name="Password"><br>
+                Re-enter :<input type="password" name="Password"><br>
+                <input type="submit" value="Signup">
+
+
+
+
+            </form>
+
+
+
+
+        </center>
+
+        <p id="get_ex"></p>
+        <p id="set_ex"></p>
+
+        <script>
+
+            var print_date = new Date();
+            document.getElementById("get_ex").innerHTML = print_date.getFullYear();
+            print_date.setFullYear(2020);
+            document.getElementById("set_ex").innerHTML= print_date;
+
+
+        
+        </script>
+
+    </body>
+
+
+</html>
