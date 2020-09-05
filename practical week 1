@@ -1,0 +1,77 @@
+<!-- In this task I am using 5 main HTML tags. E.G. HTML Elements, HTML Comments, HTML Headings, HTML Color, HTML Links, HTML Forms-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Introduction</title>
+
+<!-- In this section will be task 2 by including external styling and column layout -->
+<style type="text/css">
+
+.details{
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: 1px solid lightblue;
+
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<h1 style="background-color:blue;">Deakin student</h1>
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Yik Hong"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Tan">
+</form>
+
+
+<!-- In this section will be task 3 by including buttons and functions -->
+<button type ="button"
+
+onclick="document.getElementById('demo').innerHTML = Date()">
+
+Click to display date and time.</button>
+
+<p id="demo"> </p>
+
+
+
+<h2 style="background-color:Tomato;">Introduce myself</h2>
+<div class = "details" >
+My name is Yik Hong Tan, I am a year 3 student. Study in Deakin University Bachelor of Computer Science. Hope everything goes well in my final year.
+</div>
+
+<p> All subject will show in deakin sync.</p>
+<p1><a href="https://www.deakin.edu.au/students">Visit deakin sync</a></p1>
+
+<h3 style="background-color:green;"> Calculate your average score </h3>
+
+<form>
+  <label for="score1">Score one:</label><br>
+  <input type="integer" no="score1" number="score1" value="80"><br>
+  <label for="score2">Score two:</label><br>
+  <input type="integer" no="score2" number="score2" value="83">
+
+
+<p id="value"> </p>
+<script>
+var x = myFunction( 80 , 83  );
+document.getElementById("value").innerHTML = x;
+
+function myFunction(a, b) {
+  return (a + b)/2;
+}
+</script>
+
+</form>
+
+
+
+</body>
+</html>
